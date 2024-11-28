@@ -29,4 +29,9 @@ public class SalaAssento {
     public void setSala(Sala sala) {
         this.sala = sala;
     }
+
+    @Override 
+    public String toString() {
+        return "SalaAssento [idSalaAssento=" + idSalaAssento + ", assento=" + assento + ", sala=" + sala + "]";
+    }
 }

@@ -34,4 +34,9 @@ public class Sala {
     public String getStatus() {
         return status;
     }
+    
+    @Override
+    public String toString() {
+        return "Sala [idSala=" + idSala + ", capacidadeSala" + capacidadeSala + ", descricao=" + descricao + ", status=" + status + "]";
+    }
 }

@@ -36,4 +36,9 @@ public class Ingresso {
     public void setSessao(Sessao sessao) {
         this.sessao = sessao;
     }
+
+    @Override
+    public String toString() {
+        return "Ingresso{ Valor: " + valorPago + ", Sala: " + salaAssento + ", Sessão: " + sessao + "}";
+    }
 }

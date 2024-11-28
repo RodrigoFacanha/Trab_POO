@@ -32,6 +32,11 @@ public class Genero {
         this.status = status;
     }
 
+ @Override
+        public String toString(){
+            return "id: " + id + ", descricao: " + descricao;
+        }
+
     public boolean cadastrar(Genero genero) {
         System.out.println("Cadastrar gênero: " + genero.getDescricao());
         return true;

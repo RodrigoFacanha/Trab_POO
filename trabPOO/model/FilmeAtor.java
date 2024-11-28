@@ -48,6 +48,12 @@ public void setPrincipal(boolean principal) {
     this.principal = principal;
 }
 
+@Override 
+        public String toString() {
+            return "FilmeAtor [Ator= " + ator + "Filme= " + filme + "Personagem= " + personagem;
+        }
+
+        
 public boolean cadastrar(FilmeAtor filmeAtor) {
         System.out.println("Cadastrar ator: " + filmeAtor.getFilme().getTitulo() +
                 ", Ator: " + filmeAtor.getAtor().getNome());

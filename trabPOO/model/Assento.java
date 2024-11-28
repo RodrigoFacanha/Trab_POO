@@ -21,4 +21,8 @@ public class Assento {
     public void setTipoAssento(TipoAssento tipoAssento) {
         this.tipoAssento = tipoAssento;
     }
+    @Override 
+    public String toString(){
+        return "Assento [Lugar =" + idAssento + ", tipo =" + tipoAssento;
+    }
 }

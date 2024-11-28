@@ -55,4 +55,9 @@ public class Sessao {
     public void setStatus(String status) {
         this.status = status;
     }
+
+    @Override 
+        public String toString() {
+            return "Sessao [idSessao=" + idSessao + ", data= " + dataHoraSessao + ", filme=" + filme + ", sala=" + sala;
+        }
 }
